@@ -34,4 +34,4 @@ A comprehensive React-based e-commerce application for a product catalog.
 - Breadcrumb navigation
 - Smooth hover effects
 
-[preview](/src/assets/preview.png)
+![Project Preview](/src/assets/preview.png)
