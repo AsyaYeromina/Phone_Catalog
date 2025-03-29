@@ -16,7 +16,10 @@ export default function Header({}: Props) {
             </li>
           <li>
             <NavLink to="/tablets">Tablets</NavLink>
-            </li>
+          </li>
+          <li>
+            <NavLink to="/accessories">Accessories</NavLink>
+          </li>
         </ul>
         <ul>
           <li>

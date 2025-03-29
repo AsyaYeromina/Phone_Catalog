@@ -11,8 +11,8 @@ export default function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/products/:category" element={<CataloguePage />} /> 
-      <Route path="/product/:productId" element={<ProductDetailsPage />} />
+      <Route path="/:category" element={<CataloguePage />} />
+      <Route path="/products/:productId" element={<ProductDetailsPage />} />
       <Route path="/cart" element={<CartPage />} />
       <Route path="/favorites" element={<FavoritesPage />} />
       <Route path="*" element={<NotFoundPage />} />
